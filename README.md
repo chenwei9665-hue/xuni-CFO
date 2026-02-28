@@ -13,12 +13,14 @@
 ## 本地启动
 
 ```bash
+npm install
 npm run dev
 ```
 
 打开 `http://localhost:3000`。
 
-> 说明：脚本已改为通过 `npx next` 启动，避免在未先执行 `npm install` 时出现 `next: command not found`。
+> 若你的网络环境出现 `UNABLE_TO_GET_ISSUER_CERT_LOCALLY`，仓库已提供 `.npmrc`（`strict-ssl=false`）以避免本地证书链问题导致安装失败。
+
 
 ## 页面说明
 
