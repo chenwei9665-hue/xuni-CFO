@@ -13,11 +13,12 @@
 ## 本地启动
 
 ```bash
-npm install
 npm run dev
 ```
 
 打开 `http://localhost:3000`。
+
+> 说明：脚本已改为通过 `npx next` 启动，避免在未先执行 `npm install` 时出现 `next: command not found`。
 
 ## 页面说明
 
